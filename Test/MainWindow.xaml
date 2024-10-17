@@ -7,6 +7,44 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <StackPanel> 
+            <Label
+                x:Name="lblFitTrack"
+                Content="Fit Track"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontFamily="Arial"
+                FontSize="90"
+                Margin="10"/>
+
+            <TextBox
+                x:Name="txtBoxUsername"
+                Text="Username"
+                Width="120"/>
+
+            <TextBox
+                x:Name="txtBoxPassword"
+                Text="Password"
+                Width="120"/>
+
+            <Button
+                x:Name="btnSignIn"
+                Content="Sign in"
+                Width="120"/>
+
+            <Button
+                x:Name="btnRegister"
+                Content="Register"
+                Width="120"/>
+
+            <TextBlock
+                x:Name="txtBlockForgotPass"
+                Text="Forgot password?"
+                TextAlignment="Center"
+                Width="120"/>
+
+
+        </StackPanel>
 
     </Grid>
 </Window>
